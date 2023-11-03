@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  over
+  flow: hidden;
+}
+.header-class{
+  margin-top: 16px;
+}
+i{
+  font-size: 30px;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #edf1fd;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+  cursor: pointer;
+}
+a{
+ text-decoration: none;
+}
+button{
+  background-color: rgb(4, 159, 159);
+  padding: 4px 5px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 600;
+  width: fit-content;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  gap: 30px;
+}
+nav ul li a:hover{
+text-decoration: underline;
+font-weight: 900;
+}
+.logo{
+  font-size: 30px;
+  font-weight: 700;
+}
+.search-field{
+  display: flex;
+  gap: 35px;
+}
+input{
+padding: 4px 5px;
+}
+.hero-section{
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-left-section h1{
+  font-size: 30px;
+margin-bottom: 20px;
+font-weight: 700;
+}
+.hero-left-section h1 span{
+  color:  rgb(4, 160, 160);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.hero-left-section p span{
+  color:  rgb(4, 160, 160);
+  font-size: 1rem;
+  font-weight: 900;
+}
+.hero-right-section{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btns{
+  margin-top: 10px;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  display: flex;
+}
+.hero-right-section img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+footer{
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer p{
+  font-weight: 600;
+}
+footer ul{
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
